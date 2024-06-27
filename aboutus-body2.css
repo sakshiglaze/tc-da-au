@@ -1,0 +1,272 @@
+
+.body2 {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section4{
+    /* border-bottom: 0.5px solid black; */
+    display: grid;
+    grid-template-rows: 7.875rem 1fr;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.sec4top{
+    border-bottom: 0.5px solid black;
+    display: grid;
+    grid-template-columns:  1fr 6.5rem;
+
+}
+.top1{
+    border-left: 0.5px solid black;
+
+}
+.top2txt{
+    margin-top: 3rem;
+    margin-left: 6.5rem;
+}
+.top2txt p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.sec4bottom{
+    height:1256px;
+    border-bottom: 0.5px solid black;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  1fr 6.5rem;
+    /* background-color: #F6F6F6; */
+}
+.b-left{
+    border-left: 0.5px solid black;
+
+}
+.timeline-items{
+    position: relative;
+}
+.timeline-section{
+    padding: 0%;
+    margin: 0%;
+}
+.timeline-section::before{
+    content:'';
+    position: absolute;
+    width: 2px;
+    height:1256px;
+    background-color: #272727;
+    left: 50%;
+    /* padding: 0; */
+    margin: 0;
+    
+}
+.imgtl1 ,.imgtl2,.imgtl3 ,.imgtl4{
+    width: 20.5rem;
+    height:19.62rem;
+    display: inline-block;
+    position: absolute;
+    object-fit: cover;
+}
+
+.p1-tm1{
+    position: absolute;
+    top: 7%;
+    left:28%;
+    font-weight: 500;
+    font-size: 2rem;
+    display: inline-block;
+    width:11rem;
+}
+.p1-tm3{
+    position: absolute;
+    top: 56.8%;
+    left:28%;
+    font-weight: 500;
+    font-size: 2rem;
+    display: inline-block;
+    width:11rem;
+}
+
+.p1-tm2{
+    position: absolute;
+    top: 31.5%;
+    left:60%;
+    font-weight: 500;
+    font-size: 2rem;
+    display: inline-block;
+    width:11rem;
+}
+.p1-tm4{
+    position: absolute;
+    top: 79%;
+    left: 60%;
+    font-weight: 500;
+    font-size: 2rem;
+    display: inline-block;
+    width:11rem;
+}
+
+.p2-tm1{
+    max-width: 258px;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Oxygen;
+    font-weight: 400;
+    left:59%;
+    top:8%;
+    position:absolute;
+} 
+.p2-tm2{
+    max-width: 258px;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Oxygen;
+    font-weight: 400;
+    left:22%;
+    top: 33%;
+    position:absolute;
+} 
+.p2-tm3{
+    max-width: 258px;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Oxygen;
+    font-weight: 400;
+    left:59%;
+    top: 56.8%;
+    position:absolute;
+} 
+.p2-tm4{
+    max-width: 258px;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Oxygen;
+    font-weight: 400;
+    left: 22%;
+    top: 80%;
+    position:absolute;
+} 
+.imgtl1{
+    top:0;
+    left:0;
+}
+.imgtl3{
+    top:39.25rem;
+    left: 0;
+
+}
+.imgtl2{
+    top:19.62rem;
+    right: -6.5rem;
+}
+.imgtl4{
+    top:58.91rem;
+    right:  -6.5rem;
+
+    
+
+}
+
+.timeline-dot{
+    width: 1.125rem;
+    height: 1.125rem;
+    position: absolute;
+    left:49.38%;
+    display: inline-block;
+    z-index: 10;
+    /* top:1rem; */
+    
+    
+}
+.timeline-dot1{
+    width: 0.625rem;
+    height: 0.625rem;
+    position: absolute;
+    left:49.75%;
+    top: 9.3rem;
+    z-index: 1;
+}
+.timeline-dot2{
+    width: 0.625rem;
+    height: 0.625rem;
+    position: absolute;
+    left:49.75%;
+    top: 27.9rem;
+    z-index: 1;
+}
+.timeline-dot3{
+    width: 0.625rem;
+    height: 0.625rem;
+    position: absolute;
+    left:49.75%;
+    top: 47.6rem;
+    z-index: 1;
+}
+.timeline-dot4{
+    width: 0.625rem;
+    height: 0.625rem;
+    position: absolute;
+    left:49.75%;
+    top: 66rem;
+    z-index: 1;
+}
+@media (max-width:1200px){
+    .p1-tm1{
+        top: 4.5%;
+        left:60%;
+        
+    }
+    .p1-tm3{
+        top: 56%;
+        left:60%;
+    }
+    
+    .p1-tm2{
+        top: 28%;
+        left:16%;
+    }
+    .p1-tm4{
+        top: 77%;
+        left:17%;
+    }
+    
+    .p2-tm1{
+        left:55%;
+        top:13.5%;
+        
+    } 
+    .p2-tm2{
+        left: 11%;
+        top: 37%;
+    } 
+    .p2-tm3{
+        left:55%;
+        top: 62%;
+    } 
+    .p2-tm4{
+        left: 12%;
+        top: 86%;
+    } 
+}
+@media (max-width: 850px){
+    .imgtl1 ,.imgtl2,.imgtl3 ,.imgtl4{
+    width: 19.5rem;
+    height:17.62rem;
+    }
+}
+@media (max-width:1000px){
+    .sec4top{
+        grid-template-columns: 1fr 0;
+    }
+    .sec4bottom{
+        grid-template-columns: 1fr 0;
+    }
+    .timeline-dot{
+        left:49%;
+    }
+    .timeline-dot1, .timeline-dot2, .timeline-dot3, .timeline-dot4{
+        left:49.39%;
+    }
+}

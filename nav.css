@@ -1,0 +1,110 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1.3fr 2.2fr 6.5rem;
+    /* grid-template-rows: 1fr; */
+    padding: 0;
+    margin:0;
+    border-bottom:solid #272727 0.5px;
+    
+}
+.start_h{
+    border-right:solid #272727 0.5px;
+    /* max-width: 490px; */
+}
+.start_h_font{
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-left: 2rem;
+    margin-top: 1.87rem;
+    font-family: Montserrat;
+    margin-right: 0;
+
+}
+.middle_h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* max-width: 800px; */
+    padding-left:4rem;
+    padding-right: 4rem;
+    gap:1rem;
+    text-wrap: nowrap;
+
+}
+.mid{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+.content a {
+    text-decoration: none;
+    display:block;
+    font-family: Oxygen;
+    font-weight: 300;
+    color: #272727;
+    font-size: 0.87rem;
+    line-height: 1.125rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom:solid #272727 0.5px;
+    justify-content: center;
+    
+
+}
+.content .de_a{
+    border:none;
+}
+.content{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: #F6F6F6;
+    margin-top: 0.8rem;
+    margin-left: -3rem;
+    padding:0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: 1.5s ease-in-out;
+
+}
+.servicediv:hover .content{
+    display:block;
+}
+.content a:hover{
+    background-color: white;
+    display:block;
+
+
+}
+.arrow {
+    border: solid black;
+    border-width: 0 0.5px 0.5px 0;
+    display: inline-block;
+    padding: 4.5px;
+    margin-left: 0.6rem;
+    margin-bottom: 0.25rem;
+    cursor: pointer;
+    /* border-radius: 0.5px; */
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.end_h{
+    border-left:solid #272727 0.5px;
+}
+@media  (max-width: 1000px) {
+    .navbar{
+    grid-template-columns: 2fr 6fr 0;
+    }
+    
+}
+@media  (max-width: 750px) {
+    .start_h_font{
+        margin-right: 1.5rem;
+    }
+    
+}

@@ -1,0 +1,116 @@
+footer{
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-rows: 1fr 2.73rem;
+}
+.container2 {
+
+    padding:0%;
+    margin:0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 0.65fr 1fr 0.8fr;
+    align-items: start;
+    gap: 10px;
+
+}
+.logo p {
+    margin-left: 4.165rem;
+    margin-top: 3rem;
+    font-family: Montserrat, sans-serif;
+    font-size:1.25rem;
+    font-weight: 700;
+}
+
+.logo-images {
+    margin-top:15rem;
+    margin-left: 4.165rem;
+    display: flex;
+    gap:0.8rem;
+    flex-direction: column;
+}
+
+.logo-images img {
+    width: 1.68rem;
+    height: 1.68rem;
+}
+
+.amaze-system p  {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+.description {
+    margin-top: 1rem;;
+    font-family: Oxygen;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 17.68px;
+    margin-right:7rem;
+}
+
+
+.contact {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 3.6rem;
+}
+
+.contact-line {
+    display: grid;
+    grid-template-columns: 1.8rem 1fr;
+    gap: 1.8rem;
+}
+
+
+.contact-linex,
+.contact-liney {
+    font-family: Oxygen;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15.15px;
+    margin-top: 0.5rem;
+}
+
+.contact-line span {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+
+.services p {
+    font-family: Montserrat, sans-serif;
+    font-size:1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-left: 7.165rem;
+}
+.list {
+
+    list-style-type: none;
+    padding: 0%;
+    margin-left: 7.165rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: flex-start;
+}
+
+.list li {
+    font-family: Oxygen;
+    font-size: 14px;
+    font-weight: 300;
+}
+.last {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: center;
+}

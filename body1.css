@@ -1,0 +1,118 @@
+.body1{
+    display: grid;
+    grid-template-columns: 6.5rem 1.5fr 1.8fr;
+    padding: 0;
+    margin:0;
+    border-bottom:solid #272727 0.5px;
+
+}
+.body1_left{
+    border-right:solid #272727 0.5px;
+
+}
+.body1_mid{
+     /* display: grid; */
+    
+}
+.body1_mid1{
+    margin-top: 3.25rem;
+    margin-left: 2.25rem;
+
+}
+.text_1{
+    font-weight: 600;
+    font-size: min(1.5rem);
+}
+.body1_mid2{
+    margin-top:3.2em; 
+    margin-left: 2.25rem;
+    width: clamp(18rem,1rem+10vw,40rem);
+    margin-right:3rem;
+
+}
+.text_2{
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: min(1rem);
+    line-height: 1.26rem;
+}
+.body1_mid3{
+    margin-top: 12.0em; 
+    margin-left: 2.25rem;
+    margin-bottom: 2.4rem;
+    margin-right: min(2rem);
+    
+    
+}
+
+.learn-more {
+    width: 15.2em;
+    height: 4.56rem;
+    border: none;
+    background-color: rgba(130, 118, 254, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    border-radius: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button-text {
+    color: rgba(247, 249, 249, 1);
+    margin-left: 4rem;
+}
+
+.button-image {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    animation: floatHorizontal 3s ease-in-out infinite;
+}
+
+.icon {
+    width: 39.5px;
+    height: 40px;
+}
+.body1_right{
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    /* transition:  13s ease-in-out; */
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.body1_img{
+    height:100%;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+@media  (max-width: 1000px) {
+    .body1{
+    grid-template-columns: 0 2fr 2.3fr;
+    }
+    
+}
+.body1_right:hover .body1_img{
+    transform : scale(1.2);
+
+}
+/* @media  (min-width: 1400px){
+    .text_1{
+        font-size: 2rem;
+    }
+    .text_2{
+        font-size: 1.5rem;
+    }
+} */
+
+@keyframes  floatHorizontal {
+    0%, 100% {transform: translateX(0);}  
+    50%{ transform:translateX(10px);}  
+}
